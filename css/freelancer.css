@@ -10885,6 +10885,9 @@ form .row:first-child .floating-label-form-group {
 }
 .about{
   background-image: url('../img/photos/about.jpg');
-  background-size: cover;
+  background-size: contain;
   padding-top: 70.78%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
 }

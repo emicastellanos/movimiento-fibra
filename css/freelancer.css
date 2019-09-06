@@ -557,6 +557,16 @@ pre code {
   margin-left: auto;
 }
 
+.container-juntas {
+  width: 100%;
+  border-top: solid 3rem black;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+  height: 56,625rem;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10723,11 +10733,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .masthead {
   background-image: url('../img/photos/portada-final.jpg');
-  background-size: contain;
-  padding-top: 68.88%;
+  background-size: cover;
+  /* padding-top: 68.88%; */
   background-repeat: no-repeat;
   width: 100%;
-  height: 0;
+  /* height: 74.43rem; */
+  height: 52.625rem;
 }
 
 .masthead .masthead-heading {
@@ -10896,5 +10907,9 @@ form .row:first-child .floating-label-form-group {
 .font { 
   font-family: "Josefin Sans";
   font-size: 1.6rem;
-  padding-top: 36rem;
+}
+
+.img-carrousel {
+  width: 100%;
+  height: 100%;
 }

@@ -10806,12 +10806,14 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
+  text-align: left;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 2.3rem;
     line-height: 2.5rem;
+    text-align: left;
   }
 }
 
@@ -10951,13 +10953,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio-item-text{
-  margin: 3rem 1rem;
+  margin: 2rem 1rem;
   position: absolute;
   overflow-x:hidden;
   overflow-y:auto; 
 }
 
-.img-portfolio-info {
+.img-portfolio-active {
   width: 15rem;
   height: 15rem;
   position:relative;

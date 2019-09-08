@@ -10921,7 +10921,16 @@ form .row:first-child .floating-label-form-group {
   font-family: "Josefin Sans";
   font-size: 1.7rem;
 }
+.mambito {
+  position: absolute;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
 
+.font-img { 
+  font-family: "Josefin Sans";
+  font-size: 1.2rem;
+}
 
 @media (max-width: 992px) {
   .font {
@@ -10942,6 +10951,7 @@ form .row:first-child .floating-label-form-group {
 .container-portfolio-item {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
   margin-top:2rem;
 }
 
